@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+English" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title></title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="jumbotron col-lg-12 col-sm-12">
+                <h2 class="display-3" style="text-align:center">Employee Data Managment</h2>
+                <p style="text-align:center">A Comprehensive Directory of Employee Billable Hours</p>
+        </div>
+    </div>
+
+   <div class="panel panel-default panel-table">
+              <div class="panel-heading">
+                <div class="row">
+                  <div class="col col-xs-6">
+                    <h3 class="panel-title">Current Employees</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-body">
+                <table class="table table-striped table-bordered table-list">
+                  <thead>
+                    <tr>
+                        <th>Employee Name</th>
+                        <th>Role</th>
+                        <th>Start Date</th>
+                        <th>Months Worked</th>
+                        <th>Monthly Rate ($)</th>
+                        <th>Total Billed ($)</th>
+                    </tr> 
+                  </thead>
+                  <tbody>
+                          </tr>
+                        </tbody>
+                </table>
+
+    <div class="container">
+        <div class="row">
+            <div class="searchArea col-sm-12 col-lg-12">
+                    <div class="form-area">  
+                            <form role="form">
+                            <br style="clear:both">
+                                <h3 style="text-align:left">Add Employee</h3>
+                                <hr>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" name="Name" placeholder="Employee Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="role" name="Role" placeholder="Role" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="start date" name="Start Date" placeholder="Start Date (DD/MM/YY-ex. 01/01/89)" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="monthly rate" name="Monthly Rate" placeholder="Monthly Rate" required>
+                            </div>    
+                            <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit</button>
+                            </form>
+                        </div>             
+            </div>
+        </div>
+    </div>
+ 
+
+
+
+    
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>    
+</body>
+</html>
