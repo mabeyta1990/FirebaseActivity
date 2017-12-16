@@ -1,6 +1,6 @@
 <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
 <script>
-  // Initialize Firebase
+  //Initialize Firebase
   var config = {
     apiKey: "AIzaSyBw_nMxHxVysJbB4fzRzbiKjqlCwYXaCtU",
     authDomain: "saturdayactivity-7e6e1.firebaseapp.com",
