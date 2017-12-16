@@ -1,0 +1,12 @@
+.jumbotron {
+    background-image:url("./images/newspaperBackground.jpg");
+}
+body {
+    background-color: grey;
+    font-family: 'IM Fell English', serif;
+}
+.topArticlesBackground {
+    text-align: center;
+    color: white;
+
+}
